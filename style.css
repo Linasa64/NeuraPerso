@@ -1,100 +1,117 @@
 /*Partie Menu*/
 
+*{
+    margin:0px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/*Partie Header*/
+
 header {
     background-color : #312f2f;
     text-align : center;
     width : 100%;
 }
 
-nav{
-    width: 100%;
-    margin:0 auto;
-    position: sticky;
-    top:0;
-}
-
-nav ul{
-    padding: 0;
-    margin: 0;
-}
-
-nav li {
-    list-style: none;
-    text-align:center;
-    float: left;
-    width: 20%;
-    margin: 0px;
-    padding: 0px;
-    cursor: pointer;
-}
-
-nav a{
-    display:inline-block;
-    text-decoration: none;
+.menu button{
+    background-color: #312f2f;
+    border: 0px;
     color: white;
-    background-color: #323637;
-    padding: 10px 0px;
-    padding-left: 4.6vh;
-    padding-right: 4.6vh;
+    padding: 2vh 24px;
+    cursor: pointer;
+    float: left;
+    width: 25%;
 }
 
-.logo a {
-    background-image: url(../img/sylvain.jpg);
+.menu button:hover{
+    background-color: #353333;
 }
 
-.logo img {
-    width : 10%;
-    height: 10%;
+/*Partie contenu*/
+
+main{
+    background-color: #091a2a;
 }
 
-.menu{
+.cerveau{
+    height: 100vh;
+    background-image: url("cerveau.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw, 98vh;
+    background-position: center top;
+    color: white;
+    text-align: center;
+}
+
+.cerveau a{
+    position: relative;
+    top: 90vh;
+    color: white;
+}
+
+.categories{
+    color: white;
+    height: 100vh;
+}
+
+.categories a{
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 80vh;
+    text-align: center;
+    margin-top: 10vh;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+}
+
+#projet{
+    background-image: url("neura.jpg");
+    background-position: 75%;
+    background-size: 60vw;
+}
+
+#lies {
+    background-image: url("oeil.jpeg");
+    background-position: 48%;
+    background-size: 62vw;
     
 }
-/*Partie Header*/
 
-video#bgvid {
-    position: fixed; right: 0; bottom: 0;
-    min-width: 100%; min-height: 100%;
-    width: auto; height: auto; z-index: -100;
-    background-size: cover;
-  }
-
-
-/*Partie Container*/
-
-#container{
-    display: grid;
-    grid: repeat(2, 60px) / auto-flow 80px;
+#futur {
+    background-image: url("transhumanisme.jpg");
+    background-size: 30vw;
+    background-position: 48%;
 }
 
-#container > div{
-    background-color: azure;
-    width: 50%;
-    height: 70%;
+#projet:hover {
+    background-image: none;
+    background-color: #353333;
 }
-
 
 /*Partie Footer*/
+
+
 footer{
     text-align: right;
     background-color: #312f2f;
     bottom: 0;
+    width: 100%;
     position: static;
+    background-image: url("IUT_Site_Tlse_I.jpg");
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: 8vh;
 }
 
 
 
-footer p {
-    text-align: center;
-    color : white;
-}
-footer a{
+footer p, a{
     text-align: center;
     color : white;
 }
 
 
 .logo-iut img{ 
-
-    width: 20%;
+    width: 10vh;
 }
