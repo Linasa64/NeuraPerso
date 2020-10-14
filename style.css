@@ -30,7 +30,7 @@ header {
 /*Partie contenu*/
 
 main{
-    background-color: #091a2a;
+    background-color: #ffffff;
 }
 
 .cerveau{
@@ -50,19 +50,43 @@ main{
 }
 
 .categories{
-    color: white;
+    display: flex;
     height: 100vh;
+    align-content: center;
+    justify-content: space-around;
+    background-color: rgb(225, 226, 238);
 }
 
 .categories a{
-    display: inline-block;
+    position: relative;
+    display: flex;
+    flex-basis: 33%;
     background-repeat: no-repeat;
-    width: 30vw;
     height: 80vh;
-    text-align: center;
     margin-top: 10vh;
-    margin-right: 2.5vh;
-    margin-left: 2.5vh;
+    z-index: 2;
+    color: transparent;
+}
+
+.texteLiens h1{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top:150vh;
+    color: #31394d;
+    z-index: 1;
+}
+
+#texte1{
+    right: 77%;
+}
+
+#texte2{
+    right: 42%;
+}
+
+#texte3{
+    right: 8%;
 }
 
 #projet{
@@ -85,8 +109,15 @@ main{
 }
 
 #projet:hover {
-    background-image: none;
-    background-color: #353333;
+    filter: opacity(20%);
+}
+
+#lies:hover {
+    filter: opacity(20%);
+}
+
+#futur:hover {
+    filter: opacity(20%);
 }
 
 /*Partie Footer*/
