@@ -1,0 +1,175 @@
+/*Partie Menu*/
+
+*{
+    margin:0px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/*Partie Header*/
+
+header {
+    background-color : #31394d
+    ;
+    text-align : center;
+    width : 100%;
+}
+
+.menu button{
+    background-color: #31394d;
+    border: 0px;
+    color: white;
+    padding: 2vh 24px;
+    cursor: pointer;
+    float: left;
+    width: 25%;
+}
+
+.menu button:hover{
+    background-color: #6f82b3;
+}
+
+/*Partie contenu*/
+
+main{
+    background-color: #ffffff;
+}
+
+.cerveau{
+    height: 100vh;
+    background-image: url("../img/neura.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw, 98vh;
+    background-position: center top;
+    color: white;
+    text-align: center;
+}
+.cerveau p{
+    text-align: left;
+    color: Black; 
+    font-size: 40%;
+}
+
+.cerveau a{
+    position: relative;
+    top: 90vh;
+    color: white;
+}
+
+.categories{
+
+    display: flex;
+    align-content: stretch;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    color: transparent;
+    height: 100vh;
+}
+
+.categories img{
+    background-repeat: no-repeat;
+}
+
+.categories a{
+    display: inline-block;
+    
+    width: 30vw;
+    height: 80vh;
+    text-align: center;
+    
+}
+
+
+.article1{
+    margin-top: 10vh;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+}
+
+.article1 a{
+    
+    background-image: url("../img/neura.jpg");
+    background-position: 75%;
+    background-size: 60vw;
+}
+
+.article1 p{
+    
+   
+    font-size: 20px ;
+    color: #31394d;
+}
+
+.article2{
+    margin-top: 10vh;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+}
+
+.article2 a{
+    background-image: url("../img/oeil.jpeg");
+    background-position: 48%;
+    background-size: 62vw;
+}
+
+.article3{
+    margin-top: 10vh;
+    margin-right: 2.5vh;
+    margin-left: 2.5vh;
+}
+
+.article3 a{
+    background-image: url("../img/transhumanisme.jpg");
+    background-size: 30vw;
+    background-position: 48%;
+}
+
+.article1 a:hover {
+
+    filter: blur(6px);
+    color: wheat;
+
+}
+
+.article2 a:hover {
+    background-image: none;
+    background-color: #353333;
+    color: wheat;
+}
+.article3 a:hover {
+    background-image: none;
+    background-color: #353333;
+    color: wheat;
+}
+
+
+
+
+
+
+/*Partie Footer*/
+
+
+footer{
+    text-align: right;
+    background-color: #31394d;
+    bottom: 0;
+    width: 100%;
+    position: static;
+    background-image: url("../img/IUT_Site_Tlse_I.jpg");
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: 8vh;
+}
+
+
+
+footer p, a{
+    text-align: center;
+    color : white;
+}
+
+
+.logo-iut img{ 
+    width: 10vh;
+    
+}
