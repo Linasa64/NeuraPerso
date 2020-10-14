@@ -49,9 +49,35 @@ main{
     color: white;
 }
 
+.presentation{
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #31394d;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.presentation h1{
+    font-size: 430%;
+    display: block;
+    position: sticky;
+    line-height: 350%;
+}
+
+.presentation p{
+    display: fixed;
+    position: relative;
+    font-size: 200%;
+    font-style: italic;
+}
+
 .categories{
     display: flex;
     height: 100vh;
+    background-size: 100vw, 98vh;
     align-content: center;
     justify-content: space-around;
     background-color: rgb(225, 226, 238);
@@ -72,7 +98,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    top:150vh;
+    top:250vh;
     color: #31394d;
     z-index: 1;
 }
