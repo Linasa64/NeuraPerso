@@ -83,23 +83,21 @@ main{
     text-align: center;
 }
 .presentation h1{
-    font-size: 430%;
+    font: bold italic large serif;
+    font-size: 7vw;
     display: block;
     position: sticky;
-    line-height: 350%;
 }
 
 .presentation p{
     display: fixed;
     position: relative;
-    font-size: 200%;
-    font-style: italic;
+    font-size: 2vw;
 }
 
 .categories{
     display: flex;
     height: 100vh;
-    background-size: 100vw, 98vh;
     align-content: center;
     justify-content: space-around;
     background-color: rgb(225, 226, 238);
@@ -111,49 +109,47 @@ main{
     flex-basis: 33%;
     background-repeat: no-repeat;
     height: 80vh;
-    margin-top: 10vh;
+    margin-top: 5vh;
     z-index: 2;
     color: transparent;
+    background-position: 0%;
+    background-size: 100%;
 }
 
 .texteLiens h1{
     display: flex;
     flex-wrap: wrap;
     position: absolute;
-    top:250vh;
+    top:245vh;
     color: #31394d;
     z-index: 1;
+    font-size: 2vw;
 }
 
 #texte1{
-    right: 77%;
+    right: 77vw;
 }
 
 #texte2{
-    right: 42%;
+    right: 42vw;
 }
 
 #texte3{
-    right: 8%;
+    right: 8vw;
 }
 
 #projet{
     background-image: url("neura.jpg");
-    background-position: 75%;
-    background-size: 60vw;
+    background-position: 0%;
+    background-size: 100%;
 }
 
 #lies {
     background-image: url("oeil.jpeg");
-    background-position: 48%;
-    background-size: 62vw;
-    
 }
 
 #futur {
     background-image: url("transhumanisme.jpg");
-    background-size: 30vw;
-    background-position: 48%;
 }
 
 #projet:hover {
