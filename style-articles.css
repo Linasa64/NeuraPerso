@@ -1,0 +1,104 @@
+/*Partie Menu*/
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/*Partie Header*/
+
+header {
+    position: fixed;
+    background-color : #31394d;
+    text-align : center;
+    width : 100%;
+    z-index: 4;
+}
+
+.menu button{
+    background-color: #31394d;
+    border: 0px;
+    color: white;
+    padding: 2vh 24px;
+    cursor: pointer;
+    float: left;
+    width: 25%;
+    z-index: 4;
+}
+
+.menu button:hover{
+    background-color: #6f82b3;
+    z-index: 4;
+}
+
+/*Partie contenu*/
+
+.contenu {
+    position: relative;
+    margin-top: 6vh;
+    float: left;
+    width: 80%;
+    min-height: 150vh;
+}
+
+.titre {
+    font-size: 3vh;
+    text-align: center;
+}
+
+.titre h6{
+    font-style: italic;
+}
+
+img {
+    width: 50vw;
+    margin-left: 30vh;
+}
+
+.corpsArticle {
+    position: relative;
+    font-size: 2.5vh;
+    z-index: 3;
+    text-align: justify;
+}
+
+.corpsArticle p {
+    text-indent: 5%;
+}
+
+.filAriane {
+    position: relative;
+    float: right;
+    width : 15%;
+    margin-top: 6vh;
+    text-align: center;
+    font-size: 2vh;
+}
+
+/*Partie Footer*/
+
+
+footer{ 
+    text-align: right;
+    background-color: #312f2f;
+    bottom: 0;
+    width: 100%;
+    position: static;
+    background-image: url("IUT_Site_Tlse_I.jpg");
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: 8vh;
+}
+
+
+
+footer p, a{
+    text-align: center;
+    color : white;
+}
+
+
+.logo-iut img{ 
+    width: 10vh;
+}
