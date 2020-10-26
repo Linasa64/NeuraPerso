@@ -154,14 +154,17 @@ main{
 
 #projet:hover {
     filter: opacity(20%);
+    transition: .3s;
 }
 
 #lies:hover {
     filter: opacity(20%);
+    transition: .3s;
 }
 
 #futur:hover {
     filter: opacity(20%);
+    transition: .3s;
 }
 
 /*Partie Footer*/
