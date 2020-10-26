@@ -36,10 +36,11 @@ header {
 
 .contenu {
     position: relative;
-    margin-top: 6vh;
+    margin-top: 12vh;
     float: left;
     width: 80%;
     min-height: 150vh;
+    background-color: rgb(238, 238, 238);
 }
 
 .titre {
@@ -53,10 +54,12 @@ header {
 
 img {
     width: 50vw;
+    margin-top: 6vh;
     margin-left: 30vh;
 }
 
 .corpsArticle {
+    margin-top: 6vh;
     position: relative;
     font-size: 2.5vh;
     z-index: 3;
@@ -71,9 +74,11 @@ img {
     position: relative;
     float: right;
     width : 15%;
-    margin-top: 6vh;
+    margin-top: 12vh;
+    margin-right: 2.5vw;
     text-align: center;
     font-size: 2vh;
+    background-color: rgb(196, 230, 240);
 }
 
 /*Partie Footer*/
