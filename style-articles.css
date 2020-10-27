@@ -3,6 +3,7 @@
 *{
     margin:0;
     padding: 0;
+    border:0;
     font-family: Tahoma, Geneva, sans-serif;
 }
 
@@ -34,17 +35,23 @@ header {
 
 /*Partie contenu*/
 
+main{
+    display: flex;
+}
+
 .contenu {
+    flex : 1;
     position: relative;
-    margin-top: 12vh;
+    margin-top: 10vh;
     margin-left: 2.5%;
     float: left;
-    width: 77.5%;
+    width: 79vw;
     min-height: 150vh;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 241, 239);
 }
 
 .titre {
+    width: 74vw;
     font-size: 3vh;
     text-align: center;
 }
@@ -54,19 +61,20 @@ header {
 }
 
 img {
-    width: 50vw;
+    width: 100%;
     margin-top: 6vh;
-    margin-left: 30vh;
 }
 
-#elon:hover {
-    fill-opacity: 20%;
+.img_description{
+    width: 74vw;
+    position: sticky;
+    background-color: rgb(208, 237, 247);
 }
+
 
 .corpsArticle {
+    width: 74vw;
     margin-top: 6vh;
-    margin-left: 2%;
-    margin-right: 2%;
     position: relative;
     font-size: 2.5vh;
     z-index: 3;
@@ -75,6 +83,8 @@ img {
 
 .corpsArticle p {
     text-indent: 5%;
+    margin-right: 4vw;
+    margin-left: 4vw;
 }
 
 .videoYT {
@@ -92,35 +102,90 @@ img {
     background-color: rgb(175, 174, 174);
 }
 
+.bandeauDroite{
+    flex: 1;
+    width: 3vw;
+}
+
 .filAriane {
     position: relative;
-    float: right;
-    width : 15%;
-    margin-top: 12vh;
-    margin-right: 2.5vw;
     text-align: center;
     font-size: 2vh;
-    background-color: rgb(196, 230, 240);
+    background-color: lightblue;
+    display: block;
 }
 
 .autresArticles {
-    float: right;
-    width: 15%;
-    margin-right: 2.5vw;
+    width: 15vw;
+    margin-top: 10vh;
+    margin-right: 2vw;
     align-content: center;
+    text-align: center;
     justify-content: space-around;
+    display: block;
 }
 
-.autresArticles a {
+.autresArticles p{
+    background-color: #6777a1;
+    color: white;
+}
+
+#art2 {
+    display: block;
+    margin-top: 2vh;
+    width: 15vw;
+    background-repeat: no-repeat;
+    z-index: 2;
+    color: transparent;
+    background-size: 100%;
+    padding-top: 7.5vw;
+    padding-bottom: 7.5vw;
+}
+
+#art2text{
+    color: black;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.art2div:hover{
+    filter: opacity(70%);
+    transition: 7ms;
+}
+
+#art3 {
     display: block;
     width: 15vw;
     background-repeat: no-repeat;
     margin-top: 5vh;
     z-index: 2;
-    color: white;
+    color: transparent;
     background-size: 100%;
     padding-top: 7.5vw;
     padding-bottom: 7.5vw;
+}
+
+#art3text{
+    color: black;
+    background-color: #a8bdf3;
+}
+
+#art4 {
+    display: block;
+    width: 15vw;
+    background-repeat: no-repeat;
+    margin-top: 5vh;
+    z-index: 2;
+    color: transparent;
+    background-size: 100%;
+    padding-top: 7.5vw;
+    padding-bottom: 7.5vw;
+}
+
+#art4text{
+    color: black;
+    width: 15vw;
+    background-color: #a8bdf3;
 }
 
 #art2{
@@ -136,12 +201,12 @@ img {
 /*Partie Footer*/
 
 
-footer{ 
+.footerSite{ 
+    position: static;
+    bottom: 0;
     text-align: right;
     background-color: #312f2f;
-    bottom: 0;
     width: 100%;
-    position: static;
     background-image: url("IUT_Site_Tlse_I.jpg");
     background-repeat: no-repeat;
     background-position: 99%;
