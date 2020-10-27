@@ -86,11 +86,11 @@ main{
     font: bold italic large serif;
     font-size: 7vw;
     display: block;
-    position: sticky;
+    position: relative;
 }
 
 .presentation p{
-    display: fixed;
+    display: flex;
     position: relative;
     font-size: 2vw;
 }
@@ -98,6 +98,7 @@ main{
 .categories{
     display: flex;
     height: 100vh;
+    background-size: 100vw, 98vh;
     align-content: center;
     justify-content: space-around;
     background-color: rgb(225, 226, 238);
@@ -140,12 +141,11 @@ main{
 
 #projet{
     background-image: url("neura.jpg");
-    background-position: 0%;
-    background-size: 100%;
 }
 
 #lies {
     background-image: url("oeil.jpeg");
+    
 }
 
 #futur {
@@ -154,14 +154,17 @@ main{
 
 #projet:hover {
     filter: opacity(20%);
+    transition: .3s;
 }
 
 #lies:hover {
     filter: opacity(20%);
+    transition: .3s;
 }
 
 #futur:hover {
     filter: opacity(20%);
+    transition: .3s;
 }
 
 /*Partie Footer*/
