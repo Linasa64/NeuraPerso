@@ -1,5 +1,7 @@
 /*Partie Menu*/
 
+/* Initialise la page avec les marges à 0, et définit les polices
+d'écriture qui seront utilisées*/
 *{
     margin:0px;
     font-family: Tahoma, Geneva, sans-serif;
@@ -7,12 +9,22 @@
 
 /*Partie Header*/
 
+/*Définition des caractéristiques du header, avec:
+la couleur, la justification du texte, la longueur, 
+et sa position par rapport aux autres éléments de 
+la page (avec un z-index de 4, le menu sera toujours 
+au dessus des autres éléments de la page)*/
+
 header {
     background-color : #31394d;
     text-align : center;
     width : 100%;
     z-index: 4;
 }
+
+/*Définition des caractéristiques des boutons du header
+Couleurs, bordures, curseur qui change au survol, taille 
+et priorité par rapport aux autres éléments (z-index)*/
 
 .menu button{
     background-color: #31394d;
@@ -25,6 +37,7 @@ header {
     z-index: 4;
 }
 
+/*Changements au survol de la souris des boutons du header*/
 .menu button:hover{
     background-color: #6f82b3;
     z-index: 4;
@@ -32,14 +45,13 @@ header {
 
 /*Partie contenu*/
 
-main{
-    background-color: #ffffff;
-}
+/*Définition de la taille du conteneur de la vidéo*/
 
 .cerveau{
     height: 100vh;
     color: white;
 }
+
 
 .cerveau a{
     position: relative;
@@ -113,7 +125,6 @@ main{
     margin-top: 5vh;
     z-index: 2;
     color: transparent;
-    background-position: 0%;
     background-size: 100%;
 }
 
