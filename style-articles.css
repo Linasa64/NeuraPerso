@@ -4,7 +4,7 @@
     margin:0;
     padding: 0;
     border:0;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Lora', serif;
 }
 
 /*Partie Header*/
@@ -24,7 +24,7 @@ header {
     padding: 2vh 24px;
     cursor: pointer;
     float: left;
-    width: 25%;
+    width: 24%;
     z-index: 4;
 }
 
@@ -33,6 +33,23 @@ header {
     z-index: 4;
 }
 
+.home a{
+    display: flex;
+    position: relative;
+    float: left;
+    background-color: #cec6b2;
+    background-image: url(homeLogo.png);
+    background-size: 6.3vh;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    width: 4%;
+    height: 6.2vh;
+    background-position: center;
+}
+
+.home a:hover{
+    background-color: #907d4c;
+}
 
 /*Partie contenu*/
 
@@ -60,6 +77,10 @@ main{
 
 .titre h6{
     font-style: italic;
+}
+
+#lienParagraphe {
+    color: black;
 }
 
 img {
@@ -98,6 +119,33 @@ img {
     margin-left: 4vw;
 }
 
+table {
+    table-layout: fixed;
+    width: 89%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    margin-bottom: 3vh;
+}
+
+table caption {
+    font-style: italic;
+    margin-bottom: 1vh;
+    background-color: lightgray;
+}
+
+table th, td {
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+table th {
+    background-color: #3f4961;
+    color: white;
+}
+
 .videoYT {
     margin-top: 2%;
     margin-left: 10%;
@@ -117,7 +165,6 @@ img {
 .bandeauDroite{
     flex: 1;
     width: 3vw;
-    border-left: 40px black;
 }
 
 .autresArticles {
@@ -129,6 +176,7 @@ img {
     justify-content: space-around;
     display: block;
     background-color: rgb(243, 241, 239);
+    border: 2px solid rgb(243, 241, 239);
 }
 
 .autresArticles h3{
@@ -145,8 +193,8 @@ img {
     z-index: 2;
     color: transparent;
     background-size: 100%;
-    padding-top: 7.5vw;
-    padding-bottom: 7.5vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
 }
 
 #art2text, #art3text, #art4text{
@@ -161,13 +209,13 @@ img {
 }
 
 #art2{
-    background-image: url("neura.jpg");
+    background-image: url("productivity.jpg");
 }
 #art3{
-    background-image: url("transhumanisme.jpg");
+    background-image: url("electricBrain.jpg");
 }
 #art4{
-    background-image: url("oeil.jpeg");
+    background-image: url("dataSecurity.jpg");
 }
 
 /*Partie Footer*/
