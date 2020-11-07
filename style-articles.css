@@ -4,7 +4,7 @@
     margin:0;
     padding: 0;
     border:0;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: 'Lora', serif;
 }
 
 /*Partie Header*/
@@ -77,6 +77,10 @@ main{
 
 .titre h6{
     font-style: italic;
+}
+
+#lienParagraphe {
+    color: black;
 }
 
 img {
