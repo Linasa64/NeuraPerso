@@ -66,7 +66,6 @@ main{
     width: 79vw;
     min-height: 150vh;
     background-color: rgb(243, 241, 239);
-    border: 2px solid #dde1ec;
 }
 
 .titre {
@@ -173,7 +172,7 @@ table th {
     justify-content: space-around;
     display: block;
     background-color: rgb(243, 241, 239);
-    border: 2px solid #dde1ec;
+    border: 2px solid rgb(243, 241, 239);
 }
 
 .autresArticles h3{
