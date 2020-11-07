@@ -1,0 +1,131 @@
+*{
+    margin:0px;
+    font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+header {
+    position: fixed;
+    background-color : #31394d;
+    text-align : center;
+    width : 100%;
+    z-index: 4;
+}
+
+.menu button{
+    background-color: #31394d;
+    border: 0px;
+    color: white;
+    padding: 2vh 24px;
+    cursor: pointer;
+    float: left;
+    width: 25%;
+    z-index: 4;
+}
+
+.menu button:hover{
+    background-color: #6f82b3;
+    z-index: 4;
+}
+
+/*Contenu*/
+
+.contenu {
+    display: flex;
+    padding-top: 7vh;
+    width: 85vw;
+}
+
+.divGauche {
+    flex: 1;
+    position: relative;
+    float: left;
+    margin-left: 0.5vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+.divGauche h1 {
+    text-align: center;
+   width: 100%;
+    background-color: rgb(198, 228, 255);
+}
+
+.divGauche h3 {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+.divGauche p {
+    position: relative;
+    width: 80vw;
+    text-align: justify;
+    text-indent: 5%;
+}
+.divGauche img {
+    margin-top: 10vh;
+    margin-left: 32vw;
+    width: 20%;
+}
+
+.divDroite {
+    width: 15vw;
+    float: right;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+    display: block;
+    margin-left: 1.5vw;
+}
+
+.groupe {
+    position: relative;
+    float: right;
+    width: 15vw;
+    display: block;
+    text-align: justify;
+    margin-right: 2vw;
+    background-color: aliceblue;
+}
+
+.groupe img {
+    height: 19vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.groupe p {
+    text-align: center;
+    background: linear-gradient(rgb(211, 233, 252), aliceblue);
+}
+
+/*Partie Footer*/
+
+
+.footerSite{ 
+    position: static;
+    z-index: 7;
+    margin-top: 5vh;
+    bottom: 0;
+    text-align: right;
+    background-color: #312f2f;
+    width: 100%;
+    background-image: url("IUT_Site_Tlse_I.jpg");
+    background-repeat: no-repeat;
+    background-position: 99%;
+    background-size: 8vh;
+}
+
+
+
+footer p, a{
+    text-align: center;
+    color : white;
+    background-color: #312f2f;
+}
+
+.logo-iut img{ 
+    position: relative;
+    float: right;
+    height: 5vh;
+    margin-right: 1vw;
+}

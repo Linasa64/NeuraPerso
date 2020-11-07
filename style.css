@@ -32,8 +32,9 @@ et priorité par rapport aux autres éléments (z-index)*/
     color: white;
     padding: 2vh 24px;
     cursor: pointer;
-    float: left;
-    width: 25%;
+    float: right;
+    width: 24%;
+    height: 6.2vh;
     z-index: 4;
 }
 
@@ -43,6 +44,24 @@ et priorité par rapport aux autres éléments (z-index)*/
     z-index: 4;
 }
 
+.home a{
+    display: flex;
+    position: relative;
+    float: left;
+    background-color: #cec6b2;
+    background-image: url(homeLogo.png);
+    background-size: 6.3vh;
+    background-repeat: no-repeat;
+    filter: invert(100%);
+    width: 4%;
+    height: 6.2vh;
+    background-position: center;
+}
+
+.home a:hover{
+    background-color: #907d4c;
+}
+
 /*Partie contenu*/
 
 /*Définition de la taille du conteneur de la vidéo*/
@@ -50,6 +69,7 @@ et priorité par rapport aux autres éléments (z-index)*/
 .cerveau{
     height: 100vh;
     color: white;
+    background-color: #506464;
 }
 
 
